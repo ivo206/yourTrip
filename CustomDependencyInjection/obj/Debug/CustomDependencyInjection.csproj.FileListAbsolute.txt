@@ -1,0 +1,4 @@
+C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\CustomDependencyInjection\bin\Debug\CustomDependencyInjection.dll
+C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\CustomDependencyInjection\bin\Debug\CustomDependencyInjection.pdb
+C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\CustomDependencyInjection\obj\Debug\CustomDependencyInjection.dll
+C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\CustomDependencyInjection\obj\Debug\CustomDependencyInjection.pdb

@@ -195,15 +195,27 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Business\Exceptions\TypeNotSpecifiedException.cs" />
+    <Compile Include="Business\Factories\CustomControllerFactory.cs" />
+    <Compile Include="Business\Factories\DICustomControllerFactory.cs" />
+    <Compile Include="Business\Infrastructure\Bootstraper.cs" />
+    <Compile Include="Business\Infrastructure\DIContainer.cs" />
+    <Compile Include="Business\Infrastructure\DIMapperObject.cs" />
+    <Compile Include="Business\Infrastructure\SimpleDIContainer.cs" />
+    <Compile Include="Business\Interfaces\IDIContainer.cs" />
+    <Compile Include="Business\Interfaces\IJourneyRepository.cs" />
+    <Compile Include="Business\Repositories\Fake2JourneyRepository.cs" />
+    <Compile Include="Business\Repositories\FakeJourneyRepository.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\JourneyController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\Jurney.cs" />
+    <Compile Include="Models\Journey.cs" />
     <Compile Include="Models\LocationPoint.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\User.cs" />
@@ -268,6 +280,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Journey\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -279,6 +292,12 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CustomDependencyInjection\CustomDependencyInjection.csproj">
+      <Project>{2f9c5014-1426-4aca-a975-0f70f4552f11}</Project>
+      <Name>CustomDependencyInjection</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
