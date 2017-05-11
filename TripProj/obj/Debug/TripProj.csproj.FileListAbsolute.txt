@@ -81,3 +81,4 @@ C:\dbracho\PetProjects\YourJourney\yourTrip\TripProj\obj\Debug\TripProj.dll
 C:\dbracho\PetProjects\YourJourney\yourTrip\TripProj\obj\Debug\TripProj.pdb
 C:\dbracho\PetProjects\YourJourney\yourTrip\TripProj\obj\Debug\TripProj.Migrations.AddJourney.resources
 C:\dbracho\PetProjects\YourJourney\yourTrip\TripProj\obj\Debug\TripProj.csproj.GenerateResource.Cache
+C:\dbracho\PetProjects\YourJourney\yourTrip\TripProj\obj\Debug\TripProj.csprojResolveAssemblyReference.cache
