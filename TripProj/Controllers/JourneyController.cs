@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -16,11 +17,27 @@ namespace TripProj.Controllers
             _repository = repo;
         }
 
-
         // GET: Journey
         public ActionResult Index()
         {
-            return View();
+            var journeys = _repository.GetAllJourneys();
+            if(journeys != null)
+            {
+                return Json(journeys, JsonRequestBehavior.AllowGet);
+            }
+            return Json("Probably throw the exception here!");
         }
+
+        [HttpPost]
+        public ActionResult Index(int id)
+        {
+            var journey = _repository.GetJourney(id);
+            if (journey != null)
+            {
+                return Json(journey);
+            }
+            return Json("Probably throw the exception here!");
+        }
+
     }
 }

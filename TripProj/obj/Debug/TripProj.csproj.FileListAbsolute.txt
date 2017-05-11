@@ -15,7 +15,6 @@ C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTri
 C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\TripProj\bin\TripProj.dll
 C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\TripProj\bin\TripProj.pdb
 C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\TripProj\bin\Antlr3.Runtime.dll
-C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\TripProj\bin\CustomDependencyInjection.dll
 C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\TripProj\bin\EntityFramework.dll
 C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\TripProj\bin\EntityFramework.SqlServer.dll
 C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\TripProj\bin\Microsoft.AI.Agent.Intercept.dll
@@ -49,7 +48,6 @@ C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTri
 C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\TripProj\bin\System.Web.WebPages.dll
 C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\TripProj\bin\System.Web.WebPages.Razor.dll
 C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\TripProj\bin\WebGrease.dll
-C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\TripProj\bin\CustomDependencyInjection.pdb
 C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\TripProj\bin\Microsoft.AI.DependencyCollector.xml
 C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\TripProj\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\TripProj\bin\Microsoft.AI.Web.xml
@@ -79,6 +77,5 @@ C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTri
 C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\TripProj\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\TripProj\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\TripProj\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\TripProj\obj\Debug\TripProj.csprojResolveAssemblyReference.cache
 C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\TripProj\obj\Debug\TripProj.dll
 C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\TripProj\obj\Debug\TripProj.pdb

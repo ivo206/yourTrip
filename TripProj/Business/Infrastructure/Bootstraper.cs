@@ -14,7 +14,7 @@ namespace TripProj.Business.Infrastructure
         public static void Configure(IDIContainer container)
         {
             container.MapInstance<JourneyController, JourneyController>();
-            container.MapInstance<IJourneyRepository, Fake2JourneyRepository>();
+            container.MapInstance<IJourneyRepository, FakeJourneyRepository>();
         }
     }
 }

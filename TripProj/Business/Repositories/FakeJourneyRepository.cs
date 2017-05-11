@@ -9,19 +9,11 @@ namespace TripProj.Business.Repositories
 {
     public class FakeJourneyRepository : IJourneyRepository
     {
-        public void AddJourney(Journey newPerson)
-        {
-            throw new NotImplementedException();
-        }
+        public IList<Journey> MockJourneys { get; set; }
 
-        public void DeleteJourney(int id)
+        public FakeJourneyRepository()
         {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<Journey> GetAllJourneys()
-        {
-            List<Journey> fakeData = new List<Journey>()
+            MockJourneys = new List<Journey>()
             {
                 new Journey() {
                     Id=1,
@@ -48,13 +40,26 @@ namespace TripProj.Business.Repositories
                     Rating =1
                 }
             };
+        }
 
-            return fakeData;
+        public void AddJourney(Journey newPerson)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void DeleteJourney(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Journey> GetAllJourneys()
+        {
+            return MockJourneys as IEnumerable<Journey>;
         }
 
         public Journey GetJourney(int id)
         {
-            throw new NotImplementedException();
+            return MockJourneys.FirstOrDefault(x => x.Id == id);
         }
 
         public void UpdateJourney(int id, Journey updatedPerson)

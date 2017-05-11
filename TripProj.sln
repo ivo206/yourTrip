@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripProj", "TripProj\TripPr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JurneyTest", "JurneyTest\JurneyTest.csproj", "{E20501BA-18B4-4610-8FE1-E410BCC6F5E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomDependencyInjection", "CustomDependencyInjection\CustomDependencyInjection.csproj", "{2F9C5014-1426-4ACA-A975-0F70F4552F11}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{E20501BA-18B4-4610-8FE1-E410BCC6F5E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E20501BA-18B4-4610-8FE1-E410BCC6F5E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E20501BA-18B4-4610-8FE1-E410BCC6F5E5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2F9C5014-1426-4ACA-A975-0F70F4552F11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2F9C5014-1426-4ACA-A975-0F70F4552F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2F9C5014-1426-4ACA-A975-0F70F4552F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2F9C5014-1426-4ACA-A975-0F70F4552F11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -14,6 +14,19 @@ namespace TripProj
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+                name: "JourneyId",
+                url: "API/Journey/{id}",
+                defaults: new { controller = "Journey", action = "Index" },
+                constraints: new { id = @"\d+" }
+            );
+
+            routes.MapRoute(
+                name: "Journey",
+                url: "API/Journey/{action}/{id}",
+                defaults: new { controller = "Journey", action = "Index", id = UrlParameter.Optional }
+            );
+
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }

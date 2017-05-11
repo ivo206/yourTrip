@@ -1,8 +1,9 @@
-﻿using CustomDependencyInjection.Exceptions;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using TripProj.Business.Exceptions;
 using TripProj.Business.Interfaces;
 using TripProj.Business.Repositories;
 
