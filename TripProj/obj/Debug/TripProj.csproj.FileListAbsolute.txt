@@ -77,6 +77,6 @@ C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTri
 C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\TripProj\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\TripProj\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\TripProj\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\TripProj\obj\Debug\TripProj.csprojResolveAssemblyReference.cache
 C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\TripProj\obj\Debug\TripProj.dll
 C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\TripProj\obj\Debug\TripProj.pdb
-C:\Users\ivo.rakar\Documents\Visual Studio 2015\Projects\Amaris workshop\yourTrip\TripProj\obj\Debug\TripProj.csprojResolveAssemblyReference.cache
